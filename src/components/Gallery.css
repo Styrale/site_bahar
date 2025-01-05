@@ -1,0 +1,102 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+  
+  /* La galerie doit prendre toute la hauteur de l'écran, avec un padding léger */
+  .gallery {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Assurez-vous que le contenu est bien réparti sur toute la hauteur */
+    padding: 0 20px;
+    overflow: hidden; /* Empêcher l'overflow général */
+    align-items: center;
+    background-color: #121212;
+    gap: 10px;
+  }
+  
+  /* Titre avec une taille de police adaptée pour les petits écrans */
+  h1, h2 {
+    text-align: center;
+    font-size: 20px;
+    margin: 20px 0;
+    color: rgb(90, 90, 90);
+  }
+  
+  /* Le carrousel prendra la largeur totale de l'écran */
+  .carousel_1 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-grow: 1; /* Permet au carrousel de prendre toute la hauteur restante de l'écran */
+    overflow: hidden; /* Empêcher le débordement de l'image */
+    margin: 0 0;
+    height: 50%;
+  }
+
+  .carousel_2 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-grow: 1; /* Permet au carrousel de prendre toute la hauteur restante de l'écran */
+    overflow: hidden; /* Empêcher le débordement de l'image */
+    margin: 0 0;
+    height: 50%;
+  }
+  
+  .carousel-image {
+    width: 350px;  /* L'image prend toute la largeur de son conteneur */
+    height: 350px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    object-fit: cover; /* S'assure que l'image couvre l'espace sans déformation */
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .popup-content {
+    background-color: #121212;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 80%;
+    max-width: 400px;
+  }
+  
+  .popup-content h2 {
+    margin: 0 0 10px 0;
+  }
+  
+  .popup-content p {
+    margin: 0 0 20px 0;
+  }
+  
+  .popup-content button {
+    padding: 10px 20px;
+    background-color: #121212;
+    color:rgb(90, 90, 90);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* .popup-content button:hover {
+    background-color: #0056b3;
+  } */
+  
