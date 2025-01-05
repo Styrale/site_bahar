@@ -1,33 +1,102 @@
 [
     {
       "id": 1,
-      "src": "/img/image1.jpg",
+      "src": "/img/alice.png",
       "alt": "Image description 1"
     },
     {
       "id": 2,
-      "src": "/img/image2.jpg",
+      "src": "/img/eye.png",
       "alt": "Image description 2"
     },
     {
       "id": 3,
-      "src": "/img/image3.jpg",
+      "src": "/img/incog1.png",
       "alt": "Image description 3"
     },
     {
       "id": 4,
-      "src": "/img/image4.jpg",
+      "src": "/img/incog2.png",
       "alt": "Image description 4"
     },
     {
       "id": 5,
-      "src": "/img/image5.jpg",
+      "src": "/img/instal.png",
       "alt": "Image description 5"
     },
     {
       "id": 6,
-      "src": "/img/image6.jpg",
+      "src": "/img/lacan.png",
       "alt": "Image description 6"
+
+    },
+     {
+      "id": 7,
+      "src": "/img/mines.png",
+      "alt": "Image description 1"
+    },
+    {
+      "id": 8,
+      "src": "/img/molinier.png",
+      "alt": "Image description 2"
+    },
+    {
+      "id": 9,
+      "src": "/img/neon.png",
+      "alt": "Image description 3"
+    },
+    {
+      "id": 10,
+      "src": "/img/olives.png",
+      "alt": "Image description 4"
+    },
+    {
+      "id": 11,
+      "src": "/img/sb1.png",
+      "alt": "Image description 5"
+    },
+    {
+      "id": 12,
+      "src": "/img/SB2.png",
+      "alt": "Image description 6"
+      
+    },
+     {
+      "id": 13,
+      "src": "/img/solaire.png",
+      "alt": "Image description 1"
+    },
+    {
+      "id": 14,
+      "src": "/img/sunny.png",
+      "alt": "Image description 2"
+    },
+    {
+      "id": 15,
+      "src": "/img/TOOL.png",
+      "alt": "Image description 3"
+    },
+    {
+      "id": 16,
+      "src": "/img/vedas1.png",
+      "alt": "Image description 4"
+    },
+    {
+      "id": 17,
+      "src": "/img/vedas2.png",
+      "alt": "Image description 5"
+    },
+    {
+      "id": 18,
+      "src": "/img/velickovic.png",
+      "alt": "Image description 6"
+      
+    },
+    {
+      "id": 19,
+      "src": "/img/xray.png",
+      "alt": "Image description 6"
+      
     }
   ]
   
